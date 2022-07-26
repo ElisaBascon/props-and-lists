@@ -6,6 +6,11 @@ import Card from './components/Card';
 function App() {
   const [animals, setAnimals] = useState(animalData);
 
+  
+  //const handleSortByLife = () => {
+  //const order = [...cards].sort
+  //}
+
   return (
     <div className="App">
       <h1>Adopt me plz 🐾</h1>
